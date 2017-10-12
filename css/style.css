@@ -1,0 +1,142 @@
+body {
+	background-color: yellow;
+}
+
+h1 {
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .stars {
+	cursor: pointer;
+	
+	  &:hover {
+	  .star polygon {
+		fill: #ffd055 !important;
+	  }
+	}
+	
+	  .star {
+	  float: left;
+  
+	  polygon {
+		fill: #d8d8d8;
+	  }
+  
+	  &:hover ~ .star {
+		polygon {
+		  fill: #d8d8d8 !important;
+		}
+	  }
+	}
+	
+	&[data-stars] {
+	  .star polygon {
+		fill: #ffd055;
+	  }
+	}
+	
+	&[data-stars="1"] {
+	  .star:nth-child(1) ~ .star polygon {
+		fill: #d8d8d8;
+	  }
+	}
+	
+	&[data-stars="2"] {
+	  .star:nth-child(2) ~ .star polygon {
+		fill: #d8d8d8;
+	  }
+	}
+	
+	&[data-stars="3"] {
+	  .star:nth-child(3) ~ .star polygon {
+		fill: #d8d8d8;
+	  }
+	}
+	
+	&[data-stars="4"] {
+	  .star:nth-child(4) ~ .star polygon {
+		fill: #d8d8d8;
+	  }
+	}
+	
+	&[data-stars="5"] {
+	  .star:nth-child(5) ~ .star polygon {
+		fill: #d8d8d8;
+	  }
+	}
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .star-five { */
+	margin: 50px 0;
+	position: relative;
+	display: block;
+	color: red;
+	width: 0px;
+	height: 0px;
+	border-right:  100px solid transparent;
+	border-bottom: 70px  solid red;
+	border-left:   100px solid transparent;
+	-moz-transform:    rotate(35deg);
+	-webkit-transform: rotate(35deg);
+	-ms-transform:     rotate(35deg);
+	-o-transform:      rotate(35deg);
+ }
+ .star-five:before {
+	border-bottom: 80px solid red;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	position: absolute;
+	height: 0;
+	width: 0;
+	top: -45px;
+	left: -65px;
+	display: block;
+	content: '';
+	-webkit-transform: rotate(-35deg);
+	-moz-transform:    rotate(-35deg);
+	-ms-transform:     rotate(-35deg);
+	-o-transform:      rotate(-35deg);
+ 
+ }
+ .star-five:after {
+	position: absolute;
+	display: block;
+	color: red;
+	top: 3px;
+	left: -105px;
+	width: 0px;
+	height: 0px;
+	border-right: 100px solid transparent;
+	border-bottom: 70px solid red;
+	border-left: 100px solid transparent;
+	-webkit-transform: rotate(-70deg);
+	-moz-transform:    rotate(-70deg);
+	-ms-transform:     rotate(-70deg);
+	-o-transform:      rotate(-70deg);
+	content: '';
+ }
+					 
